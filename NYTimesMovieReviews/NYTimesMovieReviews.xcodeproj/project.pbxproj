@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D0531DF1F7AB6F900EFE5B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0531DE1F7AB6F900EFE5B7 /* AppDelegate.swift */; };
+		2D0531E11F7AB6F900EFE5B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0531E01F7AB6F900EFE5B7 /* ViewController.swift */; };
+		2D0531E41F7AB6F900EFE5B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D0531E21F7AB6F900EFE5B7 /* Main.storyboard */; };
+		2D0531E61F7AB6F900EFE5B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D0531E51F7AB6F900EFE5B7 /* Assets.xcassets */; };
+		2D0531E91F7AB6F900EFE5B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D0531E71F7AB6F900EFE5B7 /* LaunchScreen.storyboard */; };
+		2D0531F41F7AB6F900EFE5B7 /* NYTimesMovieReviewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0531F31F7AB6F900EFE5B7 /* NYTimesMovieReviewsTests.swift */; };
+		2D0531FF1F7AB6F900EFE5B7 /* NYTimesMovieReviewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0531FE1F7AB6F900EFE5B7 /* NYTimesMovieReviewsUITests.swift */; };
+		2D0532101F7AB85D00EFE5B7 /* Movies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D05320F1F7AB85D00EFE5B7 /* Movies.swift */; };
+		2D0532121F7AB8E800EFE5B7 /* QueryNYTimes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0532111F7AB8E700EFE5B7 /* QueryNYTimes.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D0531F01F7AB6F900EFE5B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D0531D31F7AB6F900EFE5B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D0531DA1F7AB6F900EFE5B7;
+			remoteInfo = NYTimesMovieReviews;
+		};
+		2D0531FB1F7AB6F900EFE5B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D0531D31F7AB6F900EFE5B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D0531DA1F7AB6F900EFE5B7;
+			remoteInfo = NYTimesMovieReviews;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D0531DB1F7AB6F900EFE5B7 /* NYTimesMovieReviews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NYTimesMovieReviews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D0531DE1F7AB6F900EFE5B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2D0531E01F7AB6F900EFE5B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2D0531E31F7AB6F900EFE5B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2D0531E51F7AB6F900EFE5B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D0531E81F7AB6F900EFE5B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2D0531EA1F7AB6F900EFE5B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D0531EF1F7AB6F900EFE5B7 /* NYTimesMovieReviewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NYTimesMovieReviewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D0531F31F7AB6F900EFE5B7 /* NYTimesMovieReviewsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYTimesMovieReviewsTests.swift; sourceTree = "<group>"; };
+		2D0531F51F7AB6F900EFE5B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D0531FA1F7AB6F900EFE5B7 /* NYTimesMovieReviewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NYTimesMovieReviewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D0531FE1F7AB6F900EFE5B7 /* NYTimesMovieReviewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYTimesMovieReviewsUITests.swift; sourceTree = "<group>"; };
+		2D0532001F7AB6F900EFE5B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D05320F1F7AB85D00EFE5B7 /* Movies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movies.swift; sourceTree = "<group>"; };
+		2D0532111F7AB8E700EFE5B7 /* QueryNYTimes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueryNYTimes.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D0531D81F7AB6F900EFE5B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D0531EC1F7AB6F900EFE5B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D0531F71F7AB6F900EFE5B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D0531D21F7AB6F900EFE5B7 = {
+			isa = PBXGroup;
+			children = (
+				2D0531DD1F7AB6F900EFE5B7 /* NYTimesMovieReviews */,
+				2D0531F21F7AB6F900EFE5B7 /* NYTimesMovieReviewsTests */,
+				2D0531FD1F7AB6F900EFE5B7 /* NYTimesMovieReviewsUITests */,
+				2D0531DC1F7AB6F900EFE5B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D0531DC1F7AB6F900EFE5B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D0531DB1F7AB6F900EFE5B7 /* NYTimesMovieReviews.app */,
+				2D0531EF1F7AB6F900EFE5B7 /* NYTimesMovieReviewsTests.xctest */,
+				2D0531FA1F7AB6F900EFE5B7 /* NYTimesMovieReviewsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D0531DD1F7AB6F900EFE5B7 /* NYTimesMovieReviews */ = {
+			isa = PBXGroup;
+			children = (
+				2D05320E1F7AB84900EFE5B7 /* Models */,
+				2D05320D1F7AB7CF00EFE5B7 /* View Controller */,
+				2D05320C1F7AB7C500EFE5B7 /* Networking */,
+				2D0531DE1F7AB6F900EFE5B7 /* AppDelegate.swift */,
+				2D0531E21F7AB6F900EFE5B7 /* Main.storyboard */,
+				2D0531E51F7AB6F900EFE5B7 /* Assets.xcassets */,
+				2D0531E71F7AB6F900EFE5B7 /* LaunchScreen.storyboard */,
+				2D0531EA1F7AB6F900EFE5B7 /* Info.plist */,
+			);
+			path = NYTimesMovieReviews;
+			sourceTree = "<group>";
+		};
+		2D0531F21F7AB6F900EFE5B7 /* NYTimesMovieReviewsTests */ = {
+			isa = PBXGroup;
+			children = (
+				2D0531F31F7AB6F900EFE5B7 /* NYTimesMovieReviewsTests.swift */,
+				2D0531F51F7AB6F900EFE5B7 /* Info.plist */,
+			);
+			path = NYTimesMovieReviewsTests;
+			sourceTree = "<group>";
+		};
+		2D0531FD1F7AB6F900EFE5B7 /* NYTimesMovieReviewsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2D0531FE1F7AB6F900EFE5B7 /* NYTimesMovieReviewsUITests.swift */,
+				2D0532001F7AB6F900EFE5B7 /* Info.plist */,
+			);
+			path = NYTimesMovieReviewsUITests;
+			sourceTree = "<group>";
+		};
+		2D05320C1F7AB7C500EFE5B7 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				2D0532111F7AB8E700EFE5B7 /* QueryNYTimes.swift */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		2D05320D1F7AB7CF00EFE5B7 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2D0531E01F7AB6F900EFE5B7 /* ViewController.swift */,
+			);
+			name = "View Controller";
+			sourceTree = "<group>";
+		};
+		2D05320E1F7AB84900EFE5B7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2D05320F1F7AB85D00EFE5B7 /* Movies.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D0531DA1F7AB6F900EFE5B7 /* NYTimesMovieReviews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D0532031F7AB6F900EFE5B7 /* Build configuration list for PBXNativeTarget "NYTimesMovieReviews" */;
+			buildPhases = (
+				2D0531D71F7AB6F900EFE5B7 /* Sources */,
+				2D0531D81F7AB6F900EFE5B7 /* Frameworks */,
+				2D0531D91F7AB6F900EFE5B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NYTimesMovieReviews;
+			productName = NYTimesMovieReviews;
+			productReference = 2D0531DB1F7AB6F900EFE5B7 /* NYTimesMovieReviews.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D0531EE1F7AB6F900EFE5B7 /* NYTimesMovieReviewsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D0532061F7AB6F900EFE5B7 /* Build configuration list for PBXNativeTarget "NYTimesMovieReviewsTests" */;
+			buildPhases = (
+				2D0531EB1F7AB6F900EFE5B7 /* Sources */,
+				2D0531EC1F7AB6F900EFE5B7 /* Frameworks */,
+				2D0531ED1F7AB6F900EFE5B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D0531F11F7AB6F900EFE5B7 /* PBXTargetDependency */,
+			);
+			name = NYTimesMovieReviewsTests;
+			productName = NYTimesMovieReviewsTests;
+			productReference = 2D0531EF1F7AB6F900EFE5B7 /* NYTimesMovieReviewsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2D0531F91F7AB6F900EFE5B7 /* NYTimesMovieReviewsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D0532091F7AB6F900EFE5B7 /* Build configuration list for PBXNativeTarget "NYTimesMovieReviewsUITests" */;
+			buildPhases = (
+				2D0531F61F7AB6F900EFE5B7 /* Sources */,
+				2D0531F71F7AB6F900EFE5B7 /* Frameworks */,
+				2D0531F81F7AB6F900EFE5B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D0531FC1F7AB6F900EFE5B7 /* PBXTargetDependency */,
+			);
+			name = NYTimesMovieReviewsUITests;
+			productName = NYTimesMovieReviewsUITests;
+			productReference = 2D0531FA1F7AB6F900EFE5B7 /* NYTimesMovieReviewsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D0531D31F7AB6F900EFE5B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Viola Pirri";
+				TargetAttributes = {
+					2D0531DA1F7AB6F900EFE5B7 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					2D0531EE1F7AB6F900EFE5B7 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2D0531DA1F7AB6F900EFE5B7;
+					};
+					2D0531F91F7AB6F900EFE5B7 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2D0531DA1F7AB6F900EFE5B7;
+					};
+				};
+			};
+			buildConfigurationList = 2D0531D61F7AB6F900EFE5B7 /* Build configuration list for PBXProject "NYTimesMovieReviews" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D0531D21F7AB6F900EFE5B7;
+			productRefGroup = 2D0531DC1F7AB6F900EFE5B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D0531DA1F7AB6F900EFE5B7 /* NYTimesMovieReviews */,
+				2D0531EE1F7AB6F900EFE5B7 /* NYTimesMovieReviewsTests */,
+				2D0531F91F7AB6F900EFE5B7 /* NYTimesMovieReviewsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D0531D91F7AB6F900EFE5B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D0531E91F7AB6F900EFE5B7 /* LaunchScreen.storyboard in Resources */,
+				2D0531E61F7AB6F900EFE5B7 /* Assets.xcassets in Resources */,
+				2D0531E41F7AB6F900EFE5B7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D0531ED1F7AB6F900EFE5B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D0531F81F7AB6F900EFE5B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D0531D71F7AB6F900EFE5B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D0532121F7AB8E800EFE5B7 /* QueryNYTimes.swift in Sources */,
+				2D0531E11F7AB6F900EFE5B7 /* ViewController.swift in Sources */,
+				2D0531DF1F7AB6F900EFE5B7 /* AppDelegate.swift in Sources */,
+				2D0532101F7AB85D00EFE5B7 /* Movies.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D0531EB1F7AB6F900EFE5B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D0531F41F7AB6F900EFE5B7 /* NYTimesMovieReviewsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D0531F61F7AB6F900EFE5B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D0531FF1F7AB6F900EFE5B7 /* NYTimesMovieReviewsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D0531F11F7AB6F900EFE5B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D0531DA1F7AB6F900EFE5B7 /* NYTimesMovieReviews */;
+			targetProxy = 2D0531F01F7AB6F900EFE5B7 /* PBXContainerItemProxy */;
+		};
+		2D0531FC1F7AB6F900EFE5B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D0531DA1F7AB6F900EFE5B7 /* NYTimesMovieReviews */;
+			targetProxy = 2D0531FB1F7AB6F900EFE5B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2D0531E21F7AB6F900EFE5B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D0531E31F7AB6F900EFE5B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2D0531E71F7AB6F900EFE5B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D0531E81F7AB6F900EFE5B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D0532011F7AB6F900EFE5B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2D0532021F7AB6F900EFE5B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D0532041F7AB6F900EFE5B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NYTimesMovieReviews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vpirri.NYTimesMovieReviews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2D0532051F7AB6F900EFE5B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NYTimesMovieReviews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vpirri.NYTimesMovieReviews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2D0532071F7AB6F900EFE5B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NYTimesMovieReviewsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vpirri.NYTimesMovieReviewsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NYTimesMovieReviews.app/NYTimesMovieReviews";
+			};
+			name = Debug;
+		};
+		2D0532081F7AB6F900EFE5B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NYTimesMovieReviewsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vpirri.NYTimesMovieReviewsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NYTimesMovieReviews.app/NYTimesMovieReviews";
+			};
+			name = Release;
+		};
+		2D05320A1F7AB6F900EFE5B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = NYTimesMovieReviewsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vpirri.NYTimesMovieReviewsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = NYTimesMovieReviews;
+			};
+			name = Debug;
+		};
+		2D05320B1F7AB6F900EFE5B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = NYTimesMovieReviewsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vpirri.NYTimesMovieReviewsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = NYTimesMovieReviews;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D0531D61F7AB6F900EFE5B7 /* Build configuration list for PBXProject "NYTimesMovieReviews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D0532011F7AB6F900EFE5B7 /* Debug */,
+				2D0532021F7AB6F900EFE5B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D0532031F7AB6F900EFE5B7 /* Build configuration list for PBXNativeTarget "NYTimesMovieReviews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D0532041F7AB6F900EFE5B7 /* Debug */,
+				2D0532051F7AB6F900EFE5B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2D0532061F7AB6F900EFE5B7 /* Build configuration list for PBXNativeTarget "NYTimesMovieReviewsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D0532071F7AB6F900EFE5B7 /* Debug */,
+				2D0532081F7AB6F900EFE5B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2D0532091F7AB6F900EFE5B7 /* Build configuration list for PBXNativeTarget "NYTimesMovieReviewsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D05320A1F7AB6F900EFE5B7 /* Debug */,
+				2D05320B1F7AB6F900EFE5B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D0531D31F7AB6F900EFE5B7 /* Project object */;
+}
