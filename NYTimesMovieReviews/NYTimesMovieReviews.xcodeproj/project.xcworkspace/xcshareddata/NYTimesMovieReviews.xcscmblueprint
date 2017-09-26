@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "42568D5E5325B93E2DC292CB41966A1386A1AD65",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "283F55BD5D3C56FF8F95CF98146438177C525213" : 9223372036854775807,
+    "42568D5E5325B93E2DC292CB41966A1386A1AD65" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "EF4D8662-A178-477A-B1D5-39245191C350",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "283F55BD5D3C56FF8F95CF98146438177C525213" : "",
+    "42568D5E5325B93E2DC292CB41966A1386A1AD65" : "NYTimesMovieReviews\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "NYTimesMovieReviews",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "NYTimesMovieReviews\/NYTimesMovieReviews.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/violapirri\/NYTimesMovieApp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "283F55BD5D3C56FF8F95CF98146438177C525213"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/violapirri\/NYTimesMovieReviews.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "42568D5E5325B93E2DC292CB41966A1386A1AD65"
+    }
+  ]
+}
