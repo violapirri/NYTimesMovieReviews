@@ -26,8 +26,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         let queryNYTimes = QueryNYTimes()
         
-        //view.addSubview(myView)
-        
         queryNYTimes.getSearchResults() { results, errorMessage in
             if let results = results {
                 self.searchResults = results
@@ -60,8 +58,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         if data != nil {
             cell.imageView?.image = UIImage(data: data!)!
         }
-        cell.textLabel?.font = UIFont(name: "HelveticaNeue-Thin", size: 13.0)
-        cell.textLabel?.adjustsFontSizeToFitWidth = true
+    
+        cell.textLabel?.font = UIFont(name: "HelveticaNeue", size: 10.0)
         cell.textLabel?.text = self.searchResults[indexPath.row].title
         cell.accessoryType = .disclosureIndicator
         return cell

@@ -64,7 +64,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gQG-Fb-V7a">
                                 <rect key="frame" x="16" y="20" width="343" height="627"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="R2w-Hq-veX">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R2w-Hq-veX">
                                         <rect key="frame" x="0.0" y="0.0" width="343" height="39"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Movie Reviews" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Vi-KO-Zt5">
@@ -77,16 +77,21 @@
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     </view>
-                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="7YO-ro-9EE">
-                                        <rect key="frame" x="0.0" y="39" width="335" height="580"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="7YO-ro-9EE">
+                                        <rect key="frame" x="-4" y="39" width="350" height="580"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     </tableView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="R2w-Hq-veX" secondAttribute="bottom" constant="588" id="6jZ-Ty-H4G"/>
                                     <constraint firstItem="R2w-Hq-veX" firstAttribute="top" secondItem="gQG-Fb-V7a" secondAttribute="top" id="9t9-XL-zaj"/>
                                     <constraint firstItem="R2w-Hq-veX" firstAttribute="leading" secondItem="gQG-Fb-V7a" secondAttribute="leading" id="DLH-i1-3Le"/>
+                                    <constraint firstItem="7YO-ro-9EE" firstAttribute="bottom" secondItem="gQG-Fb-V7a" secondAttribute="bottomMargin" id="Gda-bw-uw4"/>
+                                    <constraint firstItem="7YO-ro-9EE" firstAttribute="leading" secondItem="gQG-Fb-V7a" secondAttribute="leading" constant="-4" id="mlK-oS-Wru"/>
+                                    <constraint firstItem="7YO-ro-9EE" firstAttribute="top" secondItem="R2w-Hq-veX" secondAttribute="bottom" id="oXq-b8-hBm"/>
+                                    <constraint firstItem="R2w-Hq-veX" firstAttribute="centerX" secondItem="7YO-ro-9EE" secondAttribute="centerX" id="sPV-CY-4oc"/>
+                                    <constraint firstAttribute="trailing" secondItem="R2w-Hq-veX" secondAttribute="trailing" id="xVd-ua-PeV"/>
                                 </constraints>
                             </view>
                         </subviews>
